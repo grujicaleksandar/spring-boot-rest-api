@@ -43,7 +43,13 @@ CREATE TABLE `person` (
 
 LOCK TABLES `person` WRITE;
 /*!40000 ALTER TABLE `person` DISABLE KEYS */;
-INSERT INTO `person` VALUES (1,'Alex','Johnson','alex@mail.com','USA'),(2,'Marry','Public','mary@mail.com','Australia'),(3,'Nick','Norwitck','nick@mail.com','Norway'),(4,'Donna','Jones','donna@mail.com','Canada'),(5,'Patrick','Menouz','patrick@mail.com','GB'),(6,'Steven','Johnson','stev@mail.com','Iceland'),(7,'Harvey','Meloun','harvey@mail.com','USA');
+INSERT INTO `person` VALUES (1,'Alex','Johnson','alex@mail.com','USA'),
+(2,'Marry','Public','mary@mail.com','Australia'),
+(3,'Nick','Norwitck','nick@mail.com','Norway'),
+(4,'Donna','Jones','donna@mail.com','Canada'),
+(5,'Patrick','Menouz','patrick@mail.com','GB'),
+(6,'Steven','Johnson','stev@mail.com','Iceland'),
+(7,'Harvey','Meloun','harvey@mail.com','USA');
 /*!40000 ALTER TABLE `person` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
