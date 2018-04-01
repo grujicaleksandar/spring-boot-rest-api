@@ -16,6 +16,11 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+--Create schema--
+--
+CREATE schema database_for_rest_api;
+use database_for_rest_api;
+--
 -- Table structure for table `person`
 --
 
